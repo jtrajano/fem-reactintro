@@ -11,4 +11,4 @@ set the preference settings text editor fonts
 "editor.fontLigatures": true,
 "editor.fontFamily": "Fira Code",
 
-dank.hs
+choose class component if requires state
