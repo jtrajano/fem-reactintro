@@ -42,4 +42,8 @@ create file on the root named '.prettierrc'
 npm install -D eslint eslint-config-prettier
 
 
+"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",  //add this to scripts in package.json     
+npm run lint // run and check for error
+install eslint in vs code (file extension)  // shows error with red line
+
 
