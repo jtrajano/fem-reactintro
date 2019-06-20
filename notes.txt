@@ -39,5 +39,7 @@ editor: format on save
 Prettier: require config
 create file on the root named '.prettierrc'
 
+npm install -D eslint eslint-config-prettier
+
 
 
