@@ -54,6 +54,7 @@ package.json
   parcel runs index.html in localhost port 
   refreshes the page when there are changes in the app
 
+npm i react react-dom
 
 
 

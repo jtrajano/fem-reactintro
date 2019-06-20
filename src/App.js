@@ -1,34 +1,33 @@
+import { createElement, Component } from "react";
+import { render } from "react-dom";
+
 const Pet = ({ name, animal, breed }) => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, name),
-    React.createElement("h2", {}, animal),
-    React.createElement("h2", {}, breed)
+  return createElement("div", {}, [
+    createElement("h1", {}, name),
+    createElement("h2", {}, animal),
+    createElement("h2", {}, breed)
   ]);
 };
-class App extends React.Component {
+class App extends Component {
   handleTitleClick() {
     alert("you clicked the title");
   }
 
   render() {
-    return React.createElement("div", {}, [
-      React.createElement(
-        "h1",
-        { onClick: this.handleTitleClick },
-        "Adopt Me!"
-      ),
-      React.createElement(Pet, {
+    return createElement("div", {}, [
+      createElement("h1", { onClick: this.handleTitleClick }, "Adopt Me!"),
+      createElement(Pet, {
         name: "Luna",
         animal: "dog",
         breed: "Havanese"
       }),
-      React.createElement(Pet, {
+      createElement(Pet, {
         name: "Pepper",
         animal: "bird",
         breed: "Cockatiel"
       }),
 
-      React.createElement(Pet, {
+      createElement(Pet, {
         name: "Doink",
         animal: "cat",
         breed: "Mixed"
@@ -37,4 +36,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
+render(createElement(App), document.getElementById("root"));
