@@ -28,3 +28,16 @@ npm run test // to run test
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 npm run format // run this
+
+
+install prettier in vscode
+  via file extensions (look for prettier)
+
+
+enable
+editor: format on save 
+Prettier: require config
+create file on the root named '.prettierrc'
+
+
+
