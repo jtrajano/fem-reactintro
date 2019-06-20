@@ -46,4 +46,15 @@ npm install -D eslint eslint-config-prettier
 npm run lint // run and check for error
 install eslint in vs code (file extension)  // shows error with red line
 
+parceljs.org
+webpack
+npm install -D parcel-bundler
+package.json
+  "dev": "parcel src/index.html"
+  parcel runs index.html in localhost port 
+  refreshes the page when there are changes in the app
+
+
+
+
 
