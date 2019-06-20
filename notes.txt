@@ -19,4 +19,12 @@ npm init -y
 // - D local copy
 npm install -D prettier 
 
+package.json contains scripts to run in script node
+npm run test // to run test
 
+
+ "scripts": {
+    "format" : "prettier \"src/**/*.{js,html}\" --write",, // insert this 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+npm run format // run this
