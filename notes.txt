@@ -60,6 +60,6 @@ select a component then click the light bulb > select move to new file
 
 babel built in with parcel
 
-
+whenever there is jsx, React should be imported
 
 
