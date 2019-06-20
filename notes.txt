@@ -56,6 +56,9 @@ package.json
 
 npm i react react-dom
 
+select a component then click the light bulb > select move to new file
+
+
 
 
 
