@@ -12,3 +12,11 @@ set the preference settings text editor fonts
 "editor.fontFamily": "Fira Code",
 
 choose class component if requires state
+
+
+npm init -y
+// for formatting code
+// - D local copy
+npm install -D prettier 
+
+

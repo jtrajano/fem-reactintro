@@ -1,0 +1,23 @@
+{
+  "name": "fem-reactintro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtrajano/fem-reactintro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtrajano/fem-reactintro/issues"
+  },
+  "homepage": "https://github.com/jtrajano/fem-reactintro#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
